@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](https://github.com/chaitanya2593/SPM_G3/blob/main/overview.jpeg)
+![Product Name Screen Shot](https://github.com/chaitanya2593/Credit_Risk_Analysis/blob/main/overview.jpeg)
 
 
 ## Deployment
