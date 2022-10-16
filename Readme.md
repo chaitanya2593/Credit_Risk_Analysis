@@ -46,22 +46,25 @@
 ### Heroku deployment
 As a prerequsite, one should have the following things 
 1. An account in the Heroku https://dashboard.heroku.com/
-2. Create an app in the Heroku with available name
+
 
 In the git folder one should below files
-3. requirements.txt - with all the python packages required for app.
-4. Procfile - an no extension file with command `web: gunicorn app:server` (if you are using different name for the main dash file please replace the same in the command)
+2. requirements.txt - with all the python packages required for app.
+3. Procfile - an no extension file with command `web: gunicorn app:server` (if you are using different name for the main dash file please replace the same in the command)
+4. Define which python runtime you want for your model in runtime.txt, Please also check if the runtime is compatible with heroku. 
+5. Build the app.py with the required fields
+6. Finally, push the code to the repo
 
-#### Initialize  heroku
+ 
+#### Build the app in the heroku
 In this step it is more about deploying the app in heroku app. 
 
-
-> heroku create my-dash-app # change my-dash-app to a unique name<br>
-> git add . # add all files to git<br>
-> git commit -m 'Initial app boilerplate'<br>
-> git push heroku master # deploy code to heroku<br>
-
-Once this is successfully done you should get the url to access the website. In my case it is - `https://hdapp2593.herokuapp.com/`
+1. Login to Heroku and navigate to apps
+2. create new app with the names available (be creative ).
+3. Now navigate to the 'Deploy' tab and like your github under "Deployment method'"
+4. Under Connect to Github -> please provide the repo name in which the app is placed
+5. Under Manual Deploy -> please select tge branch and click "Deploy branch"
+6. Once this is successfully done you should get the url to access the website. In my case it is - https://cr369.herokuapp.com/
 
 ## References:
 - https://dash.plotly.com/deployment
