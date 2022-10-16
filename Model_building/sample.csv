@@ -1,0 +1,6 @@
+loan_percent_income,loan_grade,person_income,person_home_ownership,loan_int_rate
+0.21,C,53000,MORTGAGE,
+0.27,C,52800,RENT,14.27
+0.21,C,19200,RENT,14.35
+0.23,A,61000,RENT,6.99
+0.19,C,46000,RENT,14.27

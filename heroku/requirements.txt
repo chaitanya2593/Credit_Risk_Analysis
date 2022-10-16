@@ -1,0 +1,9 @@
+dash
+dash_bootstrap_components
+Django
+django_heroku
+numpy
+pandas
+pandas_stubs
+scikit_learn
+gunicorn
